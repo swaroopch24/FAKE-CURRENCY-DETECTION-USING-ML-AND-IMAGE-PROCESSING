@@ -1,0 +1,33 @@
+{
+  "dataset_version": "v_20260805_151200",
+  "generated_at": "2026-08-05T09:42:00Z",
+  "ingestion_stats": {
+    "total_scanned": 2840,
+    "valid_note_records": 2750,
+    "corrupt_images_rejected": 12,
+    "duplicate_images_skipped": 78
+  },
+  "splits_distribution": {
+    "train": 1925,
+    "val": 412,
+    "test": 413,
+    "augmented_train_additions": 5775,
+    "total_active_assets": 8515
+  },
+  "class_mappings": {
+    "real_10": 608,
+    "fake_10": 600,
+    "real_20": 605,
+    "fake_20": 602,
+    "real_50": 612,
+    "fake_50": 600,
+    "real_100": 610,
+    "fake_100": 605,
+    "real_200": 609,
+    "fake_200": 600,
+    "real_500": 615,
+    "fake_500": 608,
+    "real_2000": 620,
+    "fake_2000": 611
+  }
+}

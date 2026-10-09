@@ -1,0 +1,25 @@
+# Environments
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+*.tsbuildinfo
+
+#dataset
+dataset/
+
+# Local config
+.env
+.env.local
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+*.log

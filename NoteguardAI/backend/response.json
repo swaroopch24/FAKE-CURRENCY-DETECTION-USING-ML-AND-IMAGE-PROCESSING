@@ -1,0 +1,23 @@
+{
+  "request_id": "420b56fd-69a1-4274-a36f-4a798928e8a9",
+  "timestamp": "2026-08-15T15:48:08Z",
+  "status": "ACCEPTED",
+  "result": {
+    "denomination": 2000,
+    "denomination_label": "\u20b92000",
+    "denomination_confidence": 0.8710683584213257,
+    "authenticity": "AUTHENTIC",
+    "authenticity_confidence": 0.9590010477800206,
+    "circulation_status": "WITHDRAWN_FROM_CIRCULATION"
+  },
+  "action": {
+    "requires_retake": false,
+    "requires_manual_review": false,
+    "decision_reason": "High confidence prediction. Note: Denomination is withdrawn."
+  },
+  "meta": {
+    "processing_time_ms": 191,
+    "model_version": "1.0-stage2",
+    "policy_threshold": 0.8
+  }
+}
